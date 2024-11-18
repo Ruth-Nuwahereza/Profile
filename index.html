@@ -1,0 +1,257 @@
+<!DocType html>
+<html lang="en">
+<head>
+<title>&reg Ruth's Personal Website</title>
+  <style>
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    header div .profile {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+header {
+    display: grid;
+    gap: 0px;
+    background-color: #4CAF50;
+    padding: 1em;
+    color: white;
+    border-radius: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: contain;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 100px;
+
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+
+
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
+.main-title{
+    padding-bottom: 210px;
+
+}
+
+.level-two, .level-three{
+    display: grid;
+    gap: 10px;
+    background-color: #4CAF50;
+    padding: 1em;
+    /*color: white;*/
+    padding-top: 120px;
+}
+.level-two{
+    background-color: red;
+    /*border-radius: 20px;*/
+}
+
+hr{
+height:100px;
+color: white;
+border-radius: 30px;
+border-color: white;
+background: white;
+
+}
+
+/* Grid for Schools Attended Section */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 60px;
+    text-align: center;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+}
+h2 {
+    font-size: 4em;
+    text-align: center;
+    margin-bottom:;
+    color: black; /*#007acc;*/
+}
+/* Work Experience styling */
+#experience {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#experience p {
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#navbar-1{
+border-radius: 20px;
+background-color: lavenderblush;
+
+}
+
+
+h1{
+color:black;
+
+}
+
+footer ul li a:hover {
+   display: grid;
+    gap: 10px;
+    background-color: red;
+    padding: 1em;
+    color: white;
+
+    font-size: 26px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: green;
+}
+
+footer {
+    gap: 10px;
+    background-color:black;
+    padding: 1em;
+    color: white;
+    font-size: 26px;
+    border-radius: px;
+    text-decoration: none;
+}
+
+.level-three{
+        /*border-radius:20px;*/
+        border-color:;
+}
+
+footer p {
+        text-align: center;
+        text-decoration:italic;
+}
+
+   </style>
+</head>
+
+<body>
+   <header>
+        <div class="navbar">
+        <div class="profile">
+            <img src="img.png">
+            <h3>Ruth Nuwahereza-BLIS Student</h3>
+        </div>
+
+ <div class="main-title">
+        <h1 id="title"> EAST AFRICAN SCHOOL OF LIBRARY AND INFORMATION SCIENCE
+                <br>
+    </h1>
+</div>
+<div id="navbar-1">
+        <nav>
+            <ul>
+                <li><a href="#about">Schools</a>&nbsp;&nbsp;|</li>
+                <li><a href="#experience">Work Experience</a>&nbsp;&nbsp;|</li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+</div>
+        </div>
+    </header>
+<hr>
+    <section class="level-two">
+    <h2>Schools Attended</h2>
+<div class="grid">
+                <div class="card">2005<br>Kamonkoli PS</div>
+                <div class="card">2012<br>Ndejje SS</div>
+                <div class="card">2016<br>MACOS</div>
+</div>
+<section class="level-two">
+
+<div class="grid">
+                <div class="card">2018<br>Mengo SS</div>
+                <div class="card">2019<br>Makerere University</div>
+                <div class="card">Year...<br>Blablabla...</div>
+            </div>
+</section>
+
+    </section>
+<section class="level-three" id="experience">
+<h2>Work Experience</h2>
+            <p>Internship at Uganda Management Institute, Library and National Documentation Center</p>
+
+</section>
+<div class="footer">
+
+    <footer>
+    <div class="mine">
+    <ul>
+    <li>My socials:
+    <select>
+    <option>...</option>
+    <option href="" action="submit"> Facebook</option>
+    <option><a href="">Whatsapp channel</a></option>
+    <option><a href="">Instagram</a></option>
+    </select>
+    </li>
+    <li><a href="">Education</a></li>
+    <li><a href="">Hobbies</a></li>
+    <li><a href="">Work Experience</a></li>
+    </ul>
+    </div>
+
+
+<div class="p-footer">
+    <p>All rights reserved to &reg Ruth  &copy2024</p>
+</div>
+    </footer>
+
+</div>
+</body>
+</html>
