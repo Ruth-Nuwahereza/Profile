@@ -200,3 +200,34 @@ footer p {
         text-align: center;
         text-decoration:italic;
 }
+
+  /* Responsive Design */
+        @media screen and (max-width: 480px) {
+            .navbar {
+                text-align: center;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .profile img {
+                width: 80px;
+            }
+        }
+
+        @media screen and (min-width: 481px) and (max-width: 1024px) {
+            .navbar {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
